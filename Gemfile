@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.2"
 
+gem 'pg'
+
 gem 'ed25519'
 
 gem 'bcrypt_pbkdf', '~> 1.0.0.alpha1'
